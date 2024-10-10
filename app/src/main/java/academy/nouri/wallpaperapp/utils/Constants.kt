@@ -18,4 +18,4 @@ const val NAMED_PING = "named_ping"
 //Other
 const val SPLASH_DELAY = 3500L
 const val IMAGE_MIME_TYPE = "image/jpeg"
-const val JPG = "jpg"
+const val JPG = ".jpg"
