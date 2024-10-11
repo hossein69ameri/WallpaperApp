@@ -7,7 +7,7 @@
     <!--Splash-->
     <fragment
         android:id="@+id/splashFragment"
-        android:name="academy.nouri.wallpaperapp.ui.splash.SplashFragment"
+        android:name="ameri.hossein.wallpaperapp.ui.splash.SplashFragment"
         android:label="fragment_splash"
         tools:layout="@layout/fragment_splash" />
     <!--Home-->
@@ -20,7 +20,7 @@
         app:popExitAnim="@anim/nav_default_pop_exit_anim" />
     <fragment
         android:id="@+id/homeFragment"
-        android:name="academy.nouri.wallpaperapp.ui.home.HomeFragment"
+        android:name="ameri.hossein.wallpaperapp.ui.home.HomeFragment"
         android:label="fragment_home"
         tools:layout="@layout/fragment_home" />
     <!--Categories-->
@@ -33,7 +33,7 @@
         app:popExitAnim="@anim/nav_default_pop_exit_anim" />
     <fragment
         android:id="@+id/categoriesFragment"
-        android:name="academy.nouri.wallpaperapp.ui.categories.CategoriesFragment"
+        android:name="ameri.hossein.wallpaperapp.ui.categories.CategoriesFragment"
         android:label="fragment_categories"
         tools:layout="@layout/fragment_categories">
         <argument
@@ -53,7 +53,7 @@
         app:popExitAnim="@anim/nav_default_pop_exit_anim" />
     <fragment
         android:id="@+id/searchFragment"
-        android:name="academy.nouri.wallpaperapp.ui.search.SearchFragment"
+        android:name="ameri.hossein.wallpaperapp.ui.search.SearchFragment"
         android:label="fragment_categories"
         tools:layout="@layout/fragment_categories">
         <argument
@@ -70,7 +70,7 @@
         app:popExitAnim="@anim/nav_default_pop_exit_anim" />
     <fragment
         android:id="@+id/detailFragment"
-        android:name="academy.nouri.wallpaperapp.ui.detail.DetailFragment"
+        android:name="ameri.hossein.wallpaperapp.ui.detail.DetailFragment"
         android:label="fragment_detail"
         tools:layout="@layout/fragment_detail">
         <argument
@@ -83,12 +83,12 @@
     <!--Info-->
     <dialog
         android:id="@+id/detailInfoFragment"
-        android:name="academy.nouri.wallpaperapp.ui.detail_info.DetailInfoFragment"
+        android:name="ameri.hossein.wallpaperapp.ui.detail_info.DetailInfoFragment"
         android:label="fragment_detail_info"
         tools:layout="@layout/fragment_detail_info">
         <argument
             android:name="data"
-            app:argType="academy.nouri.wallpaperapp.data.model.detail.ResponseDetail" />
+            app:argType="ameri.hossein.wallpaperapp.data.model.detail.ResponseDetail" />
     </dialog>
 
 </navigation>

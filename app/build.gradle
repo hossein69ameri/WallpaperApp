@@ -8,11 +8,11 @@ plugins {
 }
 
 android {
-    namespace 'academy.nouri.wallpaperapp'
+    namespace 'ameri.hossein.wallpaperapp'
     compileSdk 34
 
     defaultConfig {
-        applicationId "academy.nouri.wallpaperapp"
+        applicationId "ameri.hossein.wallpaperapp"
         minSdk 24
         targetSdk 34
         versionCode 1
